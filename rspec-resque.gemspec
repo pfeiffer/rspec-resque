@@ -17,6 +17,6 @@ desc
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
   
-  s.add_runtime_dependency('resque', ['~> 1.17.0'])
+  s.add_runtime_dependency('resque', ['~> 1.19.0'])
   s.add_runtime_dependency('rspec', ['~> 2.6.0'])
 end
